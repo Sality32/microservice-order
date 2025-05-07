@@ -1,0 +1,16 @@
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "Host=your_host;Database=your_database;Username=your_username;Password=your_password"
+  },
+  "ServiceUrls": {
+    "UserService": "your_user_service_url",
+    "ProductService": "your_product_service_url"
+  },
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "AllowedHosts": "*"
+}
